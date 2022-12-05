@@ -1,0 +1,11 @@
+List {
+	border: 1px solid silver;
+}
+
+li:hover {
+	background-color: yellow;
+	color: black;
+ul, li {
+	background-color: dark green;
+	color: white;
+}
