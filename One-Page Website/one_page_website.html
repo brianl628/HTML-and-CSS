@@ -1,34 +1,28 @@
 <!DOCTYPE html>
-<html lang= "en">
+<!-- HEAD -->
+<html lang= "en>
 	<head>	
 		<meta charset="utf-8">
 		<title>Dogs For Sale</title>
+		<link rel="stylesheet" href="./css/website.css">
 	</head>
-<footer> 50% Off Puppies </footer>
-<style>
-span {
-	font-size: 2.5em; /* 40px/16=2.5em */
-}
-</style>
 <!-- NAV -->
-	<div>
-		<div>
-			<ul>	
-				<nav>
-				<a href= "#home" id="link"><li>HOME</li></a>
-				<a href= "#photos"><li>PHOTOS AND VIDEOS</li></a>
-				<a href= "#contact"><li>CONTACT</li></a>
-				</nav>
-			</ul>
-		</div>
+<div class="wrap">
+	<div class="menu-container">
+		<ul class="menu">
+			<a href= "#home"><li>HOME</li></a>
+			<a href= "#gallery"><li>PHOTOS</li></a>
+			<a href= "#contact"><li>CONTACT US</li></a>
+		</ul>
 	</div>
+</div>
 <!-- END NAV -->
 
 <!--HOME-->
 	<div id="home">
 		<div>
 			<div>
-				<span>The Puppy Store</span>
+				<span class="wrap">The Puppy Store</span>
 			</div>
 		</div>
 	</div>
@@ -36,7 +30,7 @@ span {
 
 <!-- PHOTOS -->
 	<section>
-	<div id="photos">
+	<div id="photo">
 		<h1>Photos</h1>
 		<div>
 
@@ -45,7 +39,7 @@ span {
 				<div>
 					<img src="./images/thumbnail_1.jpeg">
 					<div>
-						<h>Candy</h>
+						<h3>Candy</h3>
 						<p>7 months old, extremely playful</p>
 					</div>
 				</div>
@@ -54,10 +48,10 @@ span {
 
 			<!-- PHOTO CONTAINER 2 -->
 			<div>
-				<div>
+				<div>			
 					<img src="./images/thumbnail_2.jpeg">
 					<div>
-						<h>Coco</h>
+						<h3>Coco</h3>
 						<p>2 years old, loves human interaction</p>
 					</div>
 				</div>
@@ -69,7 +63,7 @@ span {
 				<div>
 					<img src="./images/thumbnail_3.jpeg">
 					<div>
-						<h>Lizzie</h>
+						<h3>Lizzie</h3>
 						<p>1 year old, timid nature but opens up quick</p>
 					</div>
 				</div>
@@ -82,7 +76,7 @@ span {
 					<div>
 						<iframe src="./video/dog_video.mp4" height="300px" width="300px"></iframe>	
 						<div>	
-							<h>Tommy</h>
+							<h3>Tommy</h3>
 						</div>
 					<p>5 months old, really playful</p>
 					</div>
@@ -95,35 +89,33 @@ span {
 <!-- END PHOTOS -->
 
 <!--CONTACT-->
-<section>
-		<div id="contact">
-			<div>
-				<h1>Contact Us!</h1>
-				<div>
-					<h2>Enter your contact info if your interested.
-						
-					</h2>
-					<p>
-						Let us know if you have any questions!
-					</p>
-					</div>
-						<form section=" " method="post">
-							<input class="rsvp" type="text" value="First Name">
-							<input class="rsvp" type="text" value="Last Name">
-							<input class="rsvp" type="text" value="Email Address">
-							<input class="rsvp" type="text" value="Phone Number">
-							<div class="form-spacer">
-							
-							</div>
-							<div>
-								<input type="submit" Value="Submit">
-							</div>
-						</form>
-					</div>
+<section id="contact">
+	<div class="container">
+		<div>
+			<h1>Contact Us</h1>
+			<div class="reservation">
+				<h2><span>Input your information if your interested!</span>
+					<br />We'll contact you with additional details.
+				</h2>
+				</p>
+				<div class="reservation">
+					<form action="" method="post">
+						<input class="reservation input" type="text" value="" placeholder="First Name">
+						<input class="reservation input" type="text" value="" placeholder="Last Name">
+						<input class="reservation input" type="text" value="" placeholder="Email Address">
+						<input class="reservation input" type="text" value="" placeholder="Phone Number">
+						<div class="form-spacer">
+							<label class="terms">Terms and Conditions</label>
+						</div>
+						<div class="submit">
+							<input type="submit" value="Submit">
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
+</section>
 	<!-- FOOTER -->
 	<div>
 		The Puppy Store &nbsp; | &nbsp; &copy; 2016
