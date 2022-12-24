@@ -3,6 +3,6 @@
 <p>This includes a space station website, a dogs for sale website, and a concert sales website.</p>
 <h2> Projects: </h2>
 
-[Space Station Website](google.com)
-[Dog Sale Website]
-[Concert Ticket Sales Website]
+[Space Station Website](/Projects/Basic_HTML_Website.html)
+[Dog Sale Website](/One-Page Website/one_page_website.html)
+[Concert Ticket Sales Website](/index.html)
