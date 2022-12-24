@@ -4,5 +4,7 @@
 <h2> Projects: </h2>
 
 [Space Station Website](/Projects/Basic_HTML_Website.html)
+<div>
 [Dog Sale Website](One-Page-Website/one_page_website.html)
+</div>
 [Concert Ticket Sales Website](/index.html)
