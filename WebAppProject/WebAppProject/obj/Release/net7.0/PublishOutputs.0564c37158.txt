@@ -1,0 +1,7 @@
+/Users/Brian/Desktop/WebAppProject/WebAppProject
+/Users/Brian/Desktop/WebAppProject/appsettings.Development.json
+/Users/Brian/Desktop/WebAppProject/appsettings.json
+/Users/Brian/Desktop/WebAppProject/WebAppProject.dll
+/Users/Brian/Desktop/WebAppProject/WebAppProject.deps.json
+/Users/Brian/Desktop/WebAppProject/WebAppProject.runtimeconfig.json
+/Users/Brian/Desktop/WebAppProject/WebAppProject.pdb
